@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+/*---------------------------------Estilos generales----------------------------------*/
+
+.color {
+    color :#1F8AA5 ;
+    color : #19A9A9 ;
+    color : #05010E ;
+    color : #415675;
+    color :#8D8A8C ;
+    color : #C2C1C2 ;
+    color : #989698 ;
+    color : #EAF5F8 ;
+}
+body {
+    width: 1250px;
+    height: auto;
+    margin: 2px;
+    padding: 0;
+}
+
+.img-mini {
+    width: 200px;
+    height: 150px;
+    padding-top: 10px;
+}
+.img-pequeña {
+    width: 220px;
+    height:300px;
+    border-radius: 10px;
+}
+
+.img-mediana {
+    width: 625px;
+    height: auto;
+}
+
+.img-grande {
+    width: 1250px;
+    height: auto;
+}
+
+.img-categoria {
+    width: 250px;
+    height: 160px;
+    padding-top: 20px;
+}
+.img-icono {
+    width: 35px;
+    height: 35px;}
+
+.img-icono:hover {
+    opacity: 1;
+    -webkit-box-reflect: below 0px webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    border-radius: 20px;
+    }
+
+
+body{
+    background-color: #E2DFE2;
+    color: #05010E;    
+    font-family:'Poppins', sans-serif;
+    margin: 2px;
+    padding: auto;       
+}
+
+ul {
+    list-style: none;
+    padding: 0 ;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+h1 {font-size: 24px;
+    font-style: italic;
+}
+
+
+h4 {font-size: 12px;
+    color: #E2DFE2;
+}
+
+/*-----------------------------------------BARRA DE NAVEGACION--------------------------------------*/
+.nav-1 {background-color: #1F8AA5;
+    width: 1250px;
+    height: 50px; ;
+    color: #E2DFE2;
+    margin-bottom: 3px;
+}
+
+.nav-items {
+    display: inline-block;/*cambia la propiedad de bloque a linea*/
+    width: 190px;
+    margin: 4px;
+    padding: auto;
+    background-color:#c2c1c275;
+    text-align: center;
+    margin-bottom: 15px;  
+    align-items: left; 
+    
+}
+
+.img-redes {
+    width: 35px;
+    height: 35px;}
+
+.img-redes:hover {
+    opacity: 1;
+    -webkit-box-reflect: below 0px webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    border-radius: 20px;
+    }
+
+
+a.nav-link:link {
+    color: #E2DFE2;
+    text-decoration: none;
+    
+}
+
+/* Link visitado */
+a.nav-link:visited {
+    color: #E2DFE2;
+    text-shadow: 1px 1px 10px 
+    #E2DFE2;
+    
+}
+
+/* Cuando pasamos por arriba con el cursor */
+a.nav-link:hover {
+    color: #E2DFE2;
+    font-weight: bolder;
+    text-shadow: 1px 1px 10px 
+    #E2DFE2;
+    
+}
+
+/* Cuando hacemos click sobre el link */
+a.nav-link:active {
+    color: pink;
+    text-shadow: 1px 1px 10px 
+    #E2DFE2;
+}
+
+/*ENCABEZADO*/
+header { background-color: #415675;
+    width: 1240px;
+    padding-left: 10px;
+    padding-right: auto;
+    display: flex;
+    align-items: flex-end;
+      
+}
+
+.art-header {
+    width: 600px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.art-redes {
+    width: 120px;
+    height: 163px;
+    background-image: url('../img/inicio/Groupredes.png'); 
+    display: inline-flex;
+    position: absolute;
+    left: 1100px;
+}
+.div-redes {
+    display:inline-block;
+    padding-top: 35px;
+    padding-left: 12px;
+}
+.mailto {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.art-domicilio {
+    background-color: #05010E;
+    color: #E2DFE2;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+/*----------------------------------------------------BIENVENIDA------------------------------------*/
+.bienvenida {
+    background-color: #E2DFE2;
+    background-image: url('../img/inicio/resplandor.png'); 
+    width: 1250px;
+    height: 638px;
+    margin-bottom: 0px;
+    margin-top: 0px;  
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}  
+
+.h1-bienvenida {
+    background-color:#05010e67;
+    color:#E2DFE2;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 72px;
+    letter-spacing:0.7px ;
+    font-style: italic;
+} 
+
+/*---------------------------------------SECCION CATEGORIAS------------------------------------------*/
+.img-categorias1 {
+    width: 268px;
+    height: 180px;
+    border: 20px solid #415675;   
+}
+.img-categorias2 {
+    width: 268px;
+    height: 180px;
+    border: 20px solid #1F8AA5;   
+}
+td {
+    background-color: #989698;
+    text-align: center;
+    border-radius: 10px;
+    height: 1px;
+    
+}
+.th-1 {
+    background-color: #415675;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+.th-2 {
+    background-color: #1F8AA5;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+table tr th a {
+    color: #EAF5F8;
+    padding-bottom: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table tr th a:hover {
+    color: #EAF5F8;
+    padding-bottom: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    text-shadow: 1px 1px 30px 
+    #E2DFE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desplegable1 {
+    color: #EAF5F8;
+    padding-bottom: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desplegable1:hover {
+    color: #EAF5F8;
+    background-color: #415675;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 20px 
+    #EAF5F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desplegable2 {
+    color: #EAF5F8;
+    padding-bottom: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desplegable2:hover {
+    color: #EAF5F8;
+    background-color: #1F8AA5;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 20px 
+    #EAF5F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------------------------------SECCION BUSQUEDAS RECIENTES-------------------------------------*/
+
+.div-busquedas {
+    background-color: #415675;
+    color: #E2DFE2;
+    width: 250px;
+    height: 420px;
+    text-align: center;
+    font-size: x-small;
+    border-radius: 10px;
+    padding-top: 10px;      
+
+}
+.div-vermas {
+    background-color: #1F8AA5;
+    color: #E2DFE2;
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    font-size: small;
+    font-weight: bolder;    
+    border-radius: 10px;
+    padding-top: 10px;
+    display: inline-flex;
+    justify-content: center; 
+        
+}
+
+/*---------------------------------------------SECCION DESCUENTOS-----------------------------------------*/
+
+.descuentos {
+   display: flex;
+   justify-content: space-around;
+   padding-bottom: 20px;
+}
+.div-descuento {
+    background-color: #8D8A8C;
+    width: 250px;
+    height: 420px;
+    text-align: center;
+    font-size: x-small;
+    border-radius: 10px;
+    padding-top: 10px;   
+    
+}
+/*SECCION SUSCRIPCION*/
+.suscripcion { 
+    background-color: #415675;
+    margin: 0px;
+    color: #E2DFE2;
+    font-size: medium ;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+/*PIE DE PAGINA*/
+footer { background-color: #05010E;
+         color: #E2DFE2;
+         padding-left: 10px;
+         padding-right: 10px;
+         display: flex;
+         justify-content: center;
+         column-gap: 30px;
+
+}
+.footer-form {
+    width: 400px;
+    height: 28px;
+    background-color: #E2DFE2;
+    border: none;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+}
+.sus-form {
+    width: 200px;
+    height: 28px;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #1F8AA5;
+    color: #E2DFE2;
+    font-size: 16px;
+}
+.art-footer {
+    width: 600px;
+}
